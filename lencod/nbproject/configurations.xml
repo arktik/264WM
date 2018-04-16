@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="100">
+<configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
       <df name="src">
         <in>annexb.c</in>
+        <in>biaridecod.c</in>
         <in>biariencode.c</in>
         <in>block.c</in>
         <in>cabac.c</in>
@@ -11,8 +12,14 @@
         <in>configfile.c</in>
         <in>conformance.c</in>
         <in>context_ini.c</in>
+        <in>dec_statistics.c</in>
+        <in>decoder_test.c</in>
+        <in>erc_api.c</in>
+        <in>erc_do_i.c</in>
+        <in>erc_do_p.c</in>
         <in>errdo.c</in>
         <in>errdo_dist_mhyp.c</in>
+        <in>errorconcealment.c</in>
         <in>explicit_gop.c</in>
         <in>explicit_seq.c</in>
         <in>filehandle.c</in>
@@ -30,11 +37,24 @@
         <in>img_distortion.c</in>
         <in>img_luma.c</in>
         <in>intra16x16.c</in>
+        <in>intra16x16_pred.c</in>
+        <in>intra16x16_pred_mbaff.c</in>
+        <in>intra16x16_pred_normal.c</in>
         <in>intra4x4.c</in>
+        <in>intra4x4_pred.c</in>
+        <in>intra4x4_pred_mbaff.c</in>
+        <in>intra4x4_pred_normal.c</in>
         <in>intra8x8.c</in>
+        <in>intra8x8_pred.c</in>
+        <in>intra8x8_pred_mbaff.c</in>
+        <in>intra8x8_pred_normal.c</in>
         <in>intra_chroma.c</in>
+        <in>intra_chroma_pred.c</in>
+        <in>intra_chroma_pred_mbaff.c</in>
+        <in>intra_pred_common.c</in>
         <in>intrarefresh.c</in>
         <in>lambda.c</in>
+        <in>ldecod.c</in>
         <in>leaky_bucket.c</in>
         <in>lencod.c</in>
         <in>list_reorder.c</in>
@@ -45,7 +65,11 @@
         <in>macroblock.c</in>
         <in>macroblock_P444.c</in>
         <in>mb_access.c</in>
+        <in>mb_prediction.c</in>
+        <in>mb_read.c</in>
         <in>mbuffer.c</in>
+        <in>mbuffer_mvc.c</in>
+        <in>mc_direct.c</in>
         <in>mc_prediction.c</in>
         <in>mc_prediction_otf.c</in>
         <in>md_common.c</in>
@@ -80,6 +104,7 @@
         <in>q_around.c</in>
         <in>q_matrix.c</in>
         <in>q_offsets.c</in>
+        <in>quant.c</in>
         <in>quant4x4.c</in>
         <in>quant4x4_2step.c</in>
         <in>quant4x4_around.c</in>
@@ -105,6 +130,8 @@
         <in>rdoq_cabac.c</in>
         <in>rdoq_cavlc.c</in>
         <in>rdpicdecision.c</in>
+        <in>read_comp_cabac.c</in>
+        <in>read_comp_cavlc.c</in>
         <in>report.c</in>
         <in>rtp.c</in>
         <in>sei.c</in>
@@ -253,6 +280,10 @@
         <cTool flags="0">
         </cTool>
       </item>
+      <item path="src/biaridecod.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
       <item path="src/biariencode.c" ex="false" tool="0" flavor2="3">
         <cTool flags="0">
         </cTool>
@@ -281,11 +312,35 @@
         <cTool flags="0">
         </cTool>
       </item>
+      <item path="src/dec_statistics.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/decoder_test.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/erc_api.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/erc_do_i.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/erc_do_p.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
       <item path="src/errdo.c" ex="false" tool="0" flavor2="3">
         <cTool flags="0">
         </cTool>
       </item>
       <item path="src/errdo_dist_mhyp.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/errorconcealment.c" ex="false" tool="0" flavor2="3">
         <cTool flags="0">
         </cTool>
       </item>
@@ -357,7 +412,31 @@
         <cTool flags="0">
         </cTool>
       </item>
+      <item path="src/intra16x16_pred.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra16x16_pred_mbaff.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra16x16_pred_normal.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
       <item path="src/intra4x4.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra4x4_pred.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra4x4_pred_mbaff.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra4x4_pred_normal.c" ex="false" tool="0" flavor2="3">
         <cTool flags="0">
         </cTool>
       </item>
@@ -365,7 +444,31 @@
         <cTool flags="0">
         </cTool>
       </item>
+      <item path="src/intra8x8_pred.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra8x8_pred_mbaff.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra8x8_pred_normal.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
       <item path="src/intra_chroma.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra_chroma_pred.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra_chroma_pred_mbaff.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra_pred_common.c" ex="false" tool="0" flavor2="3">
         <cTool flags="0">
         </cTool>
       </item>
@@ -374,6 +477,10 @@
         </cTool>
       </item>
       <item path="src/lambda.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/ldecod.c" ex="false" tool="0" flavor2="3">
         <cTool flags="0">
         </cTool>
       </item>
@@ -417,7 +524,23 @@
         <cTool flags="0">
         </cTool>
       </item>
+      <item path="src/mb_prediction.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mb_read.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
       <item path="src/mbuffer.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mbuffer_mvc.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mc_direct.c" ex="false" tool="0" flavor2="3">
         <cTool flags="0">
         </cTool>
       </item>
@@ -557,6 +680,10 @@
         <cTool flags="0">
         </cTool>
       </item>
+      <item path="src/quant.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
       <item path="src/quant4x4.c" ex="false" tool="0" flavor2="3">
         <cTool flags="0">
         </cTool>
@@ -654,6 +781,14 @@
         </cTool>
       </item>
       <item path="src/rdpicdecision.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/read_comp_cabac.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/read_comp_cavlc.c" ex="false" tool="0" flavor2="3">
         <cTool flags="0">
         </cTool>
       </item>

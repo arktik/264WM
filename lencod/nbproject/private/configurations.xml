@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="100">
+<configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
       <df name="inc">
@@ -104,6 +104,7 @@
       </df>
       <df name="src">
         <in>annexb.c</in>
+        <in>biaridecod.c</in>
         <in>biariencode.c</in>
         <in>block.c</in>
         <in>cabac.c</in>
@@ -111,8 +112,14 @@
         <in>configfile.c</in>
         <in>conformance.c</in>
         <in>context_ini.c</in>
+        <in>dec_statistics.c</in>
+        <in>decoder_test.c</in>
+        <in>erc_api.c</in>
+        <in>erc_do_i.c</in>
+        <in>erc_do_p.c</in>
         <in>errdo.c</in>
         <in>errdo_dist_mhyp.c</in>
+        <in>errorconcealment.c</in>
         <in>explicit_gop.c</in>
         <in>explicit_seq.c</in>
         <in>filehandle.c</in>
@@ -130,11 +137,24 @@
         <in>img_distortion.c</in>
         <in>img_luma.c</in>
         <in>intra16x16.c</in>
+        <in>intra16x16_pred.c</in>
+        <in>intra16x16_pred_mbaff.c</in>
+        <in>intra16x16_pred_normal.c</in>
         <in>intra4x4.c</in>
+        <in>intra4x4_pred.c</in>
+        <in>intra4x4_pred_mbaff.c</in>
+        <in>intra4x4_pred_normal.c</in>
         <in>intra8x8.c</in>
+        <in>intra8x8_pred.c</in>
+        <in>intra8x8_pred_mbaff.c</in>
+        <in>intra8x8_pred_normal.c</in>
         <in>intra_chroma.c</in>
+        <in>intra_chroma_pred.c</in>
+        <in>intra_chroma_pred_mbaff.c</in>
+        <in>intra_pred_common.c</in>
         <in>intrarefresh.c</in>
         <in>lambda.c</in>
+        <in>ldecod.c</in>
         <in>leaky_bucket.c</in>
         <in>lencod.c</in>
         <in>list_reorder.c</in>
@@ -145,7 +165,11 @@
         <in>macroblock.c</in>
         <in>macroblock_P444.c</in>
         <in>mb_access.c</in>
+        <in>mb_prediction.c</in>
+        <in>mb_read.c</in>
         <in>mbuffer.c</in>
+        <in>mbuffer_mvc.c</in>
+        <in>mc_direct.c</in>
         <in>mc_prediction.c</in>
         <in>mc_prediction_otf.c</in>
         <in>md_common.c</in>
@@ -180,6 +204,7 @@
         <in>q_around.c</in>
         <in>q_matrix.c</in>
         <in>q_offsets.c</in>
+        <in>quant.c</in>
         <in>quant4x4.c</in>
         <in>quant4x4_2step.c</in>
         <in>quant4x4_around.c</in>
@@ -205,6 +230,8 @@
         <in>rdoq_cabac.c</in>
         <in>rdoq_cavlc.c</in>
         <in>rdpicdecision.c</in>
+        <in>read_comp_cabac.c</in>
+        <in>read_comp_cavlc.c</in>
         <in>report.c</in>
         <in>rtp.c</in>
         <in>sei.c</in>
@@ -247,8 +274,6 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
-        <gdb_signals>
-        </gdb_signals>
         <gdb_options>
           <DebugOptions>
           </DebugOptions>

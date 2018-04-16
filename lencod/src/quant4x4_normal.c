@@ -251,7 +251,6 @@ int quant_dc4x4_normal(Macroblock *currMB, int **tblock, int qp, int* DCLevel, i
   for (coeff_ctr = 0; coeff_ctr < 16; ++coeff_ctr)
   {
     i = *p_scan++;  // horizontal position
-
     j = *p_scan++;  // vertical position
 
     m7 = &tblock[j][i];
