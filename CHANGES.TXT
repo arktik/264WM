@@ -1,4 +1,4 @@
-Changes in Version JM 19.0 (since JM 18.6)
+111111111111111111111111111Changes in Version JM 19.0 (since JM 18.6)
 ------------------------------------------
 - Support for levels 6, 6.1 and 6.2
 - Unconstrained (exprimental) coding without profile / level checks (set ProfileIdc/LevelIdc to 0)
@@ -1509,7 +1509,7 @@ KSa     Kazushi Sato            kazushi@av.crl.sony.co.jp
 KSw     Kumar Swaminathan       kswam@dolby.com
 LK      Louis Kerofsky          lkerofsky@sharplabs.com
 LL      Limin Liu               lliu@dolby.com
-LlL     Loïc Le Loarer          loic_leloarer@sdesigns.eu
+LlL     Lo\EFc Le Loarer          loic_leloarer@sdesigns.eu
 LW      Limin Wang              liwang@gi.com
 LWi     Lowell Winger           lwinger@videolocus.com
 LP      Luca Pezzoni            luca.pezzoni@st.com
@@ -1557,7 +1557,7 @@ SW      Stephan Wenger          stewe@stewe.org
 SWi     Steffen Wittmann        Steffen.Wittmann@eu.panasonic.com
 SY      Steve Yao               steveyao@sandvideo.com
 SZ      Steve Zeng              stevezeng@rogers.com
-TB      Tomás Brandão           tomas.brandao@iscte.pt
+TB      Tom\E1s Brand\E3o           tomas.brandao@iscte.pt
 TH      Till Hallbach           halbach@tele.ntnu.no
 THi     Tobias Hinz
 TK      Thomas Kunlin           thomas.kunlin@st.com
