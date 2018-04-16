@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <in>annexb.c</in>
+        <in>biariencode.c</in>
+        <in>block.c</in>
+        <in>cabac.c</in>
+        <in>cconv_yuv2rgb.c</in>
+        <in>configfile.c</in>
+        <in>conformance.c</in>
+        <in>context_ini.c</in>
+        <in>errdo.c</in>
+        <in>errdo_dist_mhyp.c</in>
+        <in>explicit_gop.c</in>
+        <in>explicit_seq.c</in>
+        <in>filehandle.c</in>
+        <in>fmo.c</in>
+        <in>get_block_otf.c</in>
+        <in>header.c</in>
+        <in>hme_distortion.c</in>
+        <in>hme_luma.c</in>
+        <in>image.c</in>
+        <in>image_mp.c</in>
+        <in>img_chroma.c</in>
+        <in>img_dist_ms_ssim.c</in>
+        <in>img_dist_snr.c</in>
+        <in>img_dist_ssim.c</in>
+        <in>img_distortion.c</in>
+        <in>img_luma.c</in>
+        <in>intra16x16.c</in>
+        <in>intra4x4.c</in>
+        <in>intra8x8.c</in>
+        <in>intra_chroma.c</in>
+        <in>intrarefresh.c</in>
+        <in>lambda.c</in>
+        <in>leaky_bucket.c</in>
+        <in>lencod.c</in>
+        <in>list_reorder.c</in>
+        <in>lln_mc_prediction.c</in>
+        <in>loopFilter.c</in>
+        <in>loop_filter_mbaff.c</in>
+        <in>loop_filter_normal.c</in>
+        <in>macroblock.c</in>
+        <in>macroblock_P444.c</in>
+        <in>mb_access.c</in>
+        <in>mbuffer.c</in>
+        <in>mc_prediction.c</in>
+        <in>mc_prediction_otf.c</in>
+        <in>md_common.c</in>
+        <in>md_distortion.c</in>
+        <in>md_high.c</in>
+        <in>md_high_updated.c</in>
+        <in>md_highfast.c</in>
+        <in>md_highloss.c</in>
+        <in>md_low.c</in>
+        <in>me_distortion.c</in>
+        <in>me_distortion_otf.c</in>
+        <in>me_epzs.c</in>
+        <in>me_epzs_common.c</in>
+        <in>me_epzs_int.c</in>
+        <in>me_epzs_sub.c</in>
+        <in>me_fullfast.c</in>
+        <in>me_fullfast_otf.c</in>
+        <in>me_fullsearch.c</in>
+        <in>me_hme.c</in>
+        <in>me_umhex.c</in>
+        <in>me_umhexsmp.c</in>
+        <in>mmco.c</in>
+        <in>mode_decision.c</in>
+        <in>mode_decision_P8x8.c</in>
+        <in>mv_direct.c</in>
+        <in>mv_search.c</in>
+        <in>nal.c</in>
+        <in>nalu.c</in>
+        <in>output.c</in>
+        <in>parset.c</in>
+        <in>pred_struct.c</in>
+        <in>q_around.c</in>
+        <in>q_matrix.c</in>
+        <in>q_offsets.c</in>
+        <in>quant4x4.c</in>
+        <in>quant4x4_2step.c</in>
+        <in>quant4x4_around.c</in>
+        <in>quant4x4_normal.c</in>
+        <in>quant4x4_trellis.c</in>
+        <in>quant8x8.c</in>
+        <in>quant8x8_around.c</in>
+        <in>quant8x8_normal.c</in>
+        <in>quant8x8_trellis.c</in>
+        <in>quantChroma.c</in>
+        <in>quantChroma_2step.c</in>
+        <in>quantChroma_around.c</in>
+        <in>quantChroma_normal.c</in>
+        <in>quantChroma_trellis.c</in>
+        <in>ratectl.c</in>
+        <in>rc_quadratic.c</in>
+        <in>rd_intra_jm.c</in>
+        <in>rd_intra_jm444.c</in>
+        <in>rd_intra_jm_low.c</in>
+        <in>rdopt.c</in>
+        <in>rdopt_coding_state.c</in>
+        <in>rdoq.c</in>
+        <in>rdoq_cabac.c</in>
+        <in>rdoq_cavlc.c</in>
+        <in>rdpicdecision.c</in>
+        <in>report.c</in>
+        <in>rtp.c</in>
+        <in>sei.c</in>
+        <in>slice.c</in>
+        <in>symbol.c</in>
+        <in>transform8x8.c</in>
+        <in>transform8x8_H444.c</in>
+        <in>vlc.c</in>
+        <in>weighted_prediction.c</in>
+        <in>wp_lms.c</in>
+        <in>wp_mciter.c</in>
+        <in>wp_mcprec.c</in>
+        <in>wp_periodic.c</in>
+        <in>wp_random.c</in>
+      </df>
+    </df>
+    <logicalFolder name="src"
+                   displayName="src"
+                   projectFiles="true"
+                   root="../lcommon/src">
+      <itemPath>../lcommon/src/blk_prediction.c</itemPath>
+      <itemPath>../lcommon/src/config_common.c</itemPath>
+      <itemPath>../lcommon/src/img_io.c</itemPath>
+      <itemPath>../lcommon/src/img_process.c</itemPath>
+      <itemPath>../lcommon/src/input.c</itemPath>
+      <itemPath>../lcommon/src/io_raw.c</itemPath>
+      <itemPath>../lcommon/src/io_tiff.c</itemPath>
+      <itemPath>../lcommon/src/mbuffer_common.c</itemPath>
+      <itemPath>../lcommon/src/memalloc.c</itemPath>
+      <itemPath>../lcommon/src/mv_prediction.c</itemPath>
+      <itemPath>../lcommon/src/nalucommon.c</itemPath>
+      <itemPath>../lcommon/src/parsetcommon.c</itemPath>
+      <itemPath>../lcommon/src/resize.c</itemPath>
+      <itemPath>../lcommon/src/transform.c</itemPath>
+      <itemPath>../lcommon/src/win32.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=gnu99 -g -std=gnu99"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>../bin/lencod.dbg.exe</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>inc</pElem>
+              <pElem>../lcommon/inc</pElem>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>_FILE_OFFSET_BITS=64</Elem>
+              <Elem>__USE_LARGEFILE64</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="../lcommon/src/blk_prediction.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/config_common.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/img_io.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/img_process.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/input.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/io_raw.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/io_tiff.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/mbuffer_common.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/memalloc.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/mv_prediction.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/nalucommon.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/parsetcommon.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/resize.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/transform.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../lcommon/src/win32.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/annexb.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/biariencode.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/block.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/cabac.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/cconv_yuv2rgb.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/configfile.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/conformance.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/context_ini.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/errdo.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/errdo_dist_mhyp.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/explicit_gop.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/explicit_seq.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/filehandle.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/fmo.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/get_block_otf.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/header.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/hme_distortion.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/hme_luma.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/image.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/image_mp.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/img_chroma.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/img_dist_ms_ssim.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/img_dist_snr.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/img_dist_ssim.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/img_distortion.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/img_luma.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra16x16.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra4x4.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra8x8.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intra_chroma.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/intrarefresh.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/lambda.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/leaky_bucket.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/lencod.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/list_reorder.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/lln_mc_prediction.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/loopFilter.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/loop_filter_mbaff.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/loop_filter_normal.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/macroblock.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/macroblock_P444.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mb_access.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mbuffer.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mc_prediction.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mc_prediction_otf.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/md_common.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/md_distortion.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/md_high.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/md_high_updated.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/md_highfast.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/md_highloss.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/md_low.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_distortion.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_distortion_otf.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_epzs.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_epzs_common.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_epzs_int.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_epzs_sub.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_fullfast.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_fullfast_otf.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_fullsearch.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_hme.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_umhex.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/me_umhexsmp.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mmco.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mode_decision.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mode_decision_P8x8.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mv_direct.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/mv_search.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/nal.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/nalu.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/output.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/parset.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/pred_struct.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/q_around.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/q_matrix.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/q_offsets.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quant4x4.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quant4x4_2step.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quant4x4_around.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quant4x4_normal.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quant4x4_trellis.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quant8x8.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quant8x8_around.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quant8x8_normal.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quant8x8_trellis.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quantChroma.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quantChroma_2step.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quantChroma_around.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quantChroma_normal.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/quantChroma_trellis.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/ratectl.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rc_quadratic.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rd_intra_jm.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rd_intra_jm444.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rd_intra_jm_low.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rdopt.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rdopt_coding_state.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rdoq.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rdoq_cabac.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rdoq_cavlc.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rdpicdecision.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/report.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/rtp.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/sei.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/slice.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/symbol.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/transform8x8.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/transform8x8_H444.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/vlc.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/weighted_prediction.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/wp_lms.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/wp_mciter.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/wp_mcprec.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/wp_periodic.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/wp_random.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
